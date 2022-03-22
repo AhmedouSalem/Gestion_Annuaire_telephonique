@@ -1,0 +1,79 @@
+body,html {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+span {
+    color: #FF00FF;
+    text-decoration: underline;
+    
+}
+.bb{
+    margin-left: 500px;
+}
+.cv3 {
+    background-color: #FFF;
+    margin-top: 50px;
+    margin-left: 254.9px;
+    margin-right: 249px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+}
+.cv2 {
+    font-size: large;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px;
+    padding: 11px;
+    font-size: 27PX;
+    border: none;
+    background-color: #FFF;
+}
+fieldset,input {
+    border-radius: 10px;
+    
+}
+input:hover {
+    background: #7A238A;
+}
+h1 {
+    background-color: #80974be1;
+    padding: 20PX;
+    text-align: center;
+    margin: auto;
+    font-size: large 29px;
+    color: rgb(167, 36, 167);
+    border: 2px solid white;
+    border-radius: 15PX;
+    text-decoration: none;
+    font-size: 34px;
+    border-bottom: 4px solid rgb(13, 68, 233);
+    font-style: oblique;
+    margin-top: 0px;
+}
+div {
+    margin-top: 0px;
+}
+
+
+#c {
+    margin: 0px;
+    text-align: right;
+    border: none;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(13, 68, 233);   
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+}
+a {
+    align-self: start;
+    font-size: 25px;
+    text-align: right;
+}

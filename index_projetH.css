@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5 { 
+    top: 250px;
+    border-bottom: 2px solid rgb(8, 173, 44); 
+    
+}
+.contt{
+    background: none;
+    background-color: #4CAF50;
+    height: 300px;
+    width: 100%;
+}
+h1 {
+    background-color:  #7A238A;
+    padding: 20PX;
+    text-align: center;
+    margin: auto;
+    font-size: large 29px;
+    color: thistle;
+    border: 2px solid  #7A238A;
+    border-radius: 15PX;
+    text-decoration: none;
+    font-size: 34px;
+    border-bottom: 4px solid rgb(13, 68, 233);
+    font-style: oblique;
+    
+}
+.cv1 {
+    text-align: right;
+    border: solid #7A238A;
+    padding: 0Px;
+    background-color: #7A238A;
+    margin-left: 0px;
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 0px;
+    font-weight: 100px;
+    text-align: center;
+    font-size: 2pc;
+    margin-bottom: 20px;
+    
+}
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    isolation: isolate;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    color: black;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav{ padding-top: 50%;}
+.sidenav a {font-size: 50%;}
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: block;
+}
+p
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+#bc:hover {
+    background-color:  #770fc7;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+    margin-top: 300px;
+    background-position: 2px bottom;
+}
+.cv {
+    padding-left: 0px;
+    font-weight: 100px;
+    text-align: center;
+    font-size: 2pc;
+}
+.con {
+    width: 50%;
+    margin-left: 130px;
+    padding: 0px 28px;
+}
+
+textarea {
+    height: 100px;
+}
+
+#cv,textarea,option,select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid rgb(13, 68, 233);
+    border-radius: 15px;
+    width: 88%;
+    background-color: #E0CDA9;
+}
+.butn {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: inherit;
+    background: transparent;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #9d65c9;
+    border: 2px solid #9d65c9;
+    display: inline-block;
+    cursor: pointer;
+    max-width: 25px 35px;
+    padding: 10px 15px;
+    transition: all .5s;
+}
+.butn {    
+    background: #9d65c9;
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 15px rgba(0, 0, 0, 0.1);
+    transform: all .5s;
+    font-size: 20px;
+    margin: 6px;
+}
+#batn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+#batn1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+textarea:hover {
+    background-color: #c2c200;}
+select:hover {
+    background-color: #c2c200;
+    } 
+#cv:hover {
+    background-color: #c2c200;
+    }
+a:hover {
+    background-color: #9d65c9;
+}

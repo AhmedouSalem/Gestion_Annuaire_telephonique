@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    font-style: oblique;
+}
+div {
+    width: 100%;
+    height: 100%;
+}
+table{
+    font-size: 45px;
+    text-align: left;
+    margin: auto;
+    padding: 8px;
+    border: 4px solid red;
+    border-radius: 2pc;
+    width: 100%;
+    height: 100%; 
+}
+td {
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 7px solid rgb(29, 9, 211);
+    border-top: 7px solid rgb(6, 240, 45);
+    border-radius: 10px;
+    border-collapse: collapse; 
+}
+th {
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 7px solid rgb(29, 9, 211);
+    border-radius: 15px;
+    border-collapse: collapse; 
+}
+tr,td,th {
+    margin: 9px;
+    padding: 13px;
+      
+}
